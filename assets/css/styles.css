@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+}
+
+body {
+    background-color: #fff;
+    font-family: "Inter", Arial, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 0;
+    scrollbar-width: 6px;
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #4d4d57;
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+img,
+svg {
+    display: block;
+    width: 100%;
+    -webkit-user-drag: none;
+}
+
+button:hover,
+button:focus,
+button:active,
+button:active:focus:not(:disabled):not(.disabled) {
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn:active:focus:not(:disabled):not(.disabled) {
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+
+.form-control {
+    height: 60px;
+    text-indent: 10px;
+    background-color: #fff;
+    color: #637089;
+    border: 2px solid #e9ebef;
+    max-width: 100%;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+
+.form-control:focus {
+    background-color: #fff;
+    color: #637089;
+    border: 2px solid #bec1c6;
+    box-shadow: none;
+}
+
+.form-control::-moz-placeholder {
+    color: #bcc0c5;
+    font-size: 0.9rem;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #bcc0c5;
+    font-size: 0.9rem;
+}
+
+.form-control::placeholder {
+    color: #bcc0c5;
+    font-size: 0.9rem;
+}
+
+select.form-control {
+    height: 60px;
+    padding-left: 0.5rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select.form-control:focus {
+    border-right: none;
+}
+
+select:not(select) {
+    border-radius: 0.25rem;
+    padding: 1.5rem 0.5rem;
+}
+
+.error-code {
+    color: #2d353c;
+    font-size: 96px;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+.error-desc {
+    font-size: 18px;
+    color: #647788;
+}
+
+.rank {
+    max-width: 100%;
+    width: 100px;
+}
