@@ -41,58 +41,58 @@ function summonerRegion($region){
 
 function summonerRank($tier, $rank) {
   if ($tier == "BRONZE" && $rank == "I") {
-    echo "bronze_i.png";
+    echo "bronze_i";
   } elseif ($tier == "BRONZE" && $rank == "II") {
-    echo "bronze_ii.png";
+    echo "bronze_ii";
   } elseif ($tier == "BRONZE" && $rank == "III") {
-    echo "bronze_iii.png";
+    echo "bronze_iii";
   } elseif ($tier == "BRONZE" && $rank == "IV") {
-    echo "bronze_iv.png";
+    echo "bronze_iv";
   } elseif ($tier == "BRONZE" && $rank == "V") {
-    echo "bronze_v.png";
+    echo "bronze_v";
   } elseif ($tier == "SILVER" && $rank == "I") {
-    echo "silver_i.png";
+    echo "silver_i";
   } elseif ($tier == "SILVER" && $rank == "II") {
-    echo "silver_ii.png";
+    echo "silver_ii";
   } elseif ($tier == "SILVER" && $rank == "III") {
-    echo "silver_iii.png";
+    echo "silver_iii";
   } elseif ($tier == "SILVER" && $rank == "IV") {
-    echo "silver_iv.png";
+    echo "silver_iv";
   } elseif ($tier == "SILVER" && $rank == "V") {
-    echo "silver_v.png";
+    echo "silver_v";
   } elseif ($tier == "GOLD" && $rank == "I") {
-    echo "gold_i.png";
+    echo "gold_i";
   } elseif ($tier == "GOLD" && $rank == "II") {
-    echo "gold_ii.png";
+    echo "gold_ii";
   } elseif ($tier == "GOLD" && $rank == "III") {
-    echo "gold_iii.png";
+    echo "gold_iii";
   } elseif ($tier == "GOLD" && $rank == "IV") {
-    echo "gold_iv.png";
+    echo "gold_iv";
   } elseif ($tier == "GOLD" && $rank == "V") {
-    echo "gold_v.png";
+    echo "gold_v";
   } elseif ($tier == "PLATINUM" && $rank == "I") {
-    echo "platinum_i.png";
+    echo "platinum_i";
   } elseif ($tier == "PLATINUM" && $rank == "II") {
-    echo "platinum_ii.png";
+    echo "platinum_ii";
   } elseif ($tier == "PLATINUM" && $rank == "III") {
-    echo "platinum_iii.png";
+    echo "platinum_iii";
   } elseif ($tier == "PLATINUM" && $rank == "IV") {
-    echo "platinum_iv.png";
+    echo "platinum_iv";
   } elseif ($tier == "PLATINUM" && $rank == "V") {
-    echo "platinum_v.png";
+    echo "platinum_v";
   } elseif ($tier == "DIAMOND" && $rank == "I") {
-    echo "diamond_i.png";
+    echo "diamond_i";
   } elseif ($tier == "DIAMOND" && $rank == "II") {
-    echo "diamond_ii.png";
+    echo "diamond_ii";
   } elseif ($tier == "DIAMOND" && $rank == "III") {
-    echo "diamond_iii.png";
+    echo "diamond_iii";
   } elseif ($tier == "DIAMOND" && $rank == "IV") {
-    echo "diamond_iv.png";
+    echo "diamond_iv";
   } elseif ($tier == "DIAMOND" && $rank == "V") {
-    echo "diamond_v.png";
+    echo "diamond_v";
   } elseif ($tier == "MASTER" && $rank == "I") {
-    echo "master_i.png";
+    echo "master_i";
   } elseif ($tier == "CHALLENGER" && $rank == "I") {
-    echo "challenger_i.png";
+    echo "challenger_i";
   }
 }
