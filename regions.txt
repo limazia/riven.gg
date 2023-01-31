@@ -1,0 +1,16 @@
+North America NA1
+Europe West EUW1
+Europe Nordic & East EUN1
+Oceania OCE/OC1
+Korea KR
+Japan JP1
+Brazil BR1
+LAS LA2
+LAN LA1
+Russia RU1
+Türkiye TR1
+Singapore SG2
+Philippines PH2
+Taiwan TW2
+Vietnam VN2
+Thailand TH2
