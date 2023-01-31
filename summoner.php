@@ -64,7 +64,7 @@ $apiKey = $config->apiKey;
           <div class="card">
             <div class="card-header">Ranqueada</div>
             <div class="card-body">
-              <img src="assets/images/ranks/<?php echo summonerRank($rank["tier"], $rank["rank"]); ?>" class="img-fluid rank">
+              <img src="assets/images/ranks/<?php echo summonerRank($rank["tier"], $rank["rank"]); ?>.png" class="img-fluid rank">
               <?php echo $rank['tier']; ?> <?php echo $rank['rank']; ?>
               <small>(<?php echo $rank['leaguePoints']; ?> PDL)</small>
               <br>
